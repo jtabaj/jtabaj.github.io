@@ -15,7 +15,7 @@
 <body>
     <header class="container-fluid fixed-top w-auto ">
         <div class="row " >
-            <div class="col-3 text-white ">
+            <div class="col-3 text-white mx-3">
                 <img src="./i/codoacodo.png" alt="logo" width="100px"> Conf Bs As 
             </div>
             <div class="col-8 p-2">  
@@ -23,8 +23,8 @@
                     <li><a class="nav-link active" href="#intro">La  conferencia</a></li>
                     <li> <a class="nav-link" href="#oradores">Los oradores</a></li>
                     <li> <a class="nav-link" href="#info">El lugar y la fecha</a></li>
-                    <li> <a class="nav-link" href="#formulario">Conviértete en orador</a></li>
-                    <a class="nav-link" href="https://www.ticketek.com.ar/" target="_blank">Comprar tickets</a></li>
+                    <li> <a class="nav-link"  href="#formulario">Conviértete en orador</a></li>
+                    <a id="comprar"  class="nav-link" href="https://www.ticketek.com.ar/" target="_blank">Comprar tickets</a></li>
                   </ul>
             </div>
         </div>
@@ -93,13 +93,13 @@
     </div>
 
 
-    <div id="oradores" class="mt-3">
-      <div class="container align-text-end">
+    <div id="oradores" class="m-3 text-center">
+      <div class="container">
         <p>CONOCE A LOS</p>
-        <h1 class="mt-0">Oradores</h1>
-        <div class="row text-start">
-          <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
+        <h1 class="">Oradores</h1>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" XXXstyle="width: 18rem;">
               <img src="i/steve.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <a href="https://www.w3schools.com/js/" target="_blank" class="btn btn-warning btn-sm">JavaScript</a>
@@ -111,8 +111,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
+          <div class="col-4">
+            <div class="card">
               <img src="i/bill.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <a href="https://www.w3schools.com/js/default.asp" target="_blank" class="btn btn-warning btn-sm">JavaScript</a>
@@ -124,8 +124,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
+          <div class="col-4">
+            <div class="card" XXXstyle="width: 18rem;">
               <img src="i/ada.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <a href="https://es.wikipedia.org/wiki/Ada_Lovelace" class="btn btn-secondary btn-sm" target="_blank" >Negocios</a>
@@ -150,7 +150,7 @@
                 
                 <div class="col-6 " id="infoImg">
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-6 mt-lg-3">
                   
                     <h3 class="">Bs As - Octubre</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere recusandae, at deleniti nam earum molestias possimus doloribus v sit amet consectetur, adipisicing elit. Facere recusandae, at deleniti nam earum molestias possimus doloribus v sit amet consectetur, adipisicing elit. Facere recusandae, at deleniti nam earum molestias possimus doloribus voluptatem porro commodi!</p>
@@ -164,28 +164,29 @@
     <div id="formulario">
       <div  class="container text-center">
         <div class="row justify-content-center" >
-            <p>CONVIÉRTETE EN UN <h1>ORADOR</h1></p>
+            <p class="pt-2 mb-0">CONVIÉRTETE EN UN </p>
+            <h1 class="p-0">ORADOR</h1>
             <p>Anótate como orador para dar una <span class="subrayado">charla ignite</span> Cuéntanos de qué quieres hablar!</p>
-            <div class="col-3">
+            <div class="col-4">
               <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
             </div>
-         <div class="row mt-4 justify-content-center" >   
-            <div class="col-6 ">
+         <div class="row mt-4 px-0 justify-content-center" >   
+            <div class="col-8">
                 <textarea class="form-control " id="sobreQue" placeholder="Sobre que quieres hablar?" rows="6"></textarea>
-                <label class="form-label small" for="sobreQue"> Recuerda incluir un título para tu charla</label>
+                <p id="recuerda" class="small" for="sobreQue"> Recuerda incluir un título para tu charla</p>
               </div>
             </div>  
-            <button class="btn btn-success col-6"> Enviar</button>
+            <button id="btn-enviar" class="btn col-8"> Enviar</button>
           </div>
         </div>
     </div>
 
     <footer class="">
         <div class="col-12">
-            <ul class="nav justify-content-center ">
+            <ul class="nav justify-content-around">
                 <a class="nav-link" href="#">Preguntas<br>frecuentes</a>
                 <a class="nav-link" href="#">Contáctanos</a>
                 <a class="nav-link" href="#">Prensa</a>

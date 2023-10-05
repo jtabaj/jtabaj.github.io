@@ -1,8 +1,8 @@
 
-header{
-    background-color: black;
-}
 
+header{
+    background-color: #353a40;
+}
 
 a:link,
 a:visited {
@@ -15,26 +15,24 @@ a:visited {
     color: white !important;
   }
 
-
 #info{
-    background-color: black;
+    background-color: #353a40;
     color: white;
 
 }
 
 .subrayado{
     text-decoration:underline dotted;
-   
 }
 
 #infoImg{
     background-image: url("i/honolulu.jpg");
     background-size:cover;
-    height: 50em;
+    height: 45em;
 }
 
 footer{
-    background-color: darkcyan;
+    background-color: #1f5271;
 }
 
 .centrar{
@@ -42,29 +40,40 @@ footer{
     top: 25%;
 }
 
-
 #intro1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url("i/ba1.jpg");
-    /* background-size:cover; */
-    color: white;
-    height: 50em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url("./i/ba1.jpg");
+    background-size:cover;
+    height:50em;
 }
 
 #intro2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url("i/ba2.jpg");
     background-size:cover;
-    color: white;
     height: 50em;
 }
 
 #intro3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url("i/ba3.jpg");
     background-size:cover;
-    color: white;
     height: 50em;
 }
 
 .hover-negro:hover{
     background-color: white;
     color: black !important;
+  }
+
+  #comprar{
+    color:#96c93e !important
+  }
+
+  #recuerda{
+    text-align: left !important;
+    font-size: 0.75em;
+  }
+
+  #btn-enviar{
+    background-color: #96c93e;
+    color: white;
+    margin-bottom: 1em;
   }
