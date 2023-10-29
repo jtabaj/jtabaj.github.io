@@ -1,0 +1,69 @@
+
+header{
+    background-color: black;
+}
+
+
+a {
+    color: white !important;
+    font-size: 1em;
+  }
+
+  .nav-link:hover{
+    background-color: lightslategrey;
+    color: white !important;
+  }
+
+
+#info{
+    background-color: black;
+    color: white;
+
+}
+
+.subrayado{
+    text-decoration:underline dotted;
+   
+}
+
+#infoImg{
+    background-image: url("i/honolulu.jpg");
+    background-size:cover;
+    height: 50em;
+}
+
+footer{
+    background-color: darkcyan;
+}
+
+.centrar{
+    position: relative;
+    top: 25%;
+}
+
+
+#intro1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url("i/ba1.jpg");
+    /* background-size:cover; */
+    color: white;
+    height: 50em;
+}
+
+#intro2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url("i/ba2.jpg");
+    background-size:cover;
+    color: white;
+    height: 50em;
+}
+
+#intro3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url("i/ba3.jpg");
+    background-size:cover;
+    color: white;
+    height: 50em;
+}
+
+.hover-negro:hover{
+    background-color: white;
+    color: black !important;
+  }
