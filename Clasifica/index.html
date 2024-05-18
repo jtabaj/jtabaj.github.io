@@ -8,30 +8,6 @@
 </head>
 <body>
     <h1>Arrastra las palabras a los grupos</h1>
-    <div id="words">
-        <div class="column">
-            <div class="word" draggable="true">Escobero</div>
-            <div class="word" draggable="true">Cornelio Saavedra</div>
-            <div class="word" draggable="true">Empanadas</div>
-            <div class="word" draggable="true">Jabot</div>
-            <div class="word" draggable="true">Mariano Moreno</div>
-            <div class="word" draggable="true">Locro</div>
-        </div>
-        <div class="column">
-            <div class="word" draggable="true">Bastón</div>
-            <div class="word" draggable="true">Lechero</div>
-            <div class="word" draggable="true">Carbonada</div>
-            <div class="word" draggable="true">Juán José Paso</div>
-            <div class="word" draggable="true">Peineta</div>
-        </div>
-        <div class="column">
-            <div class="word" draggable="true">Pastelera</div>
-            <div class="word" draggable="true">Manuel Belgrano</div>
-            <div class="word" draggable="true">Abanico</div>
-            <div class="word" draggable="true">Sastre</div>
-            <div class="word" draggable="true">Humita</div>
-        </div>
-    </div>
     <div class="groups">
         <div class="group" ondrop="drop(event)" ondragover="allowDrop(event)">
             <input type="text" placeholder="Nombre del grupo">
@@ -49,6 +25,24 @@
             <input type="text" placeholder="Nombre del grupo">
             <div class="group-words"></div>
         </div>
+    </div>
+    <div id="words">
+        <div class="word" draggable="true">Escobero</div>
+        <div class="word" draggable="true">Cornelio Saavedra</div>
+        <div class="word" draggable="true">Empanadas</div>
+        <div class="word" draggable="true">Jabot</div>
+        <div class="word" draggable="true">Mariano Moreno</div>
+        <div class="word" draggable="true">Locro</div>
+        <div class="word" draggable="true">Bastón</div>
+        <div class="word" draggable="true">Lechero</div>
+        <div class="word" draggable="true">Carbonada</div>
+        <div class="word" draggable="true">Juán José Paso</div>
+        <div class="word" draggable="true">Peineta</div>
+        <div class="word" draggable="true">Pastelera</div>
+        <div class="word" draggable="true">Manuel Belgrano</div>
+        <div class="word" draggable="true">Abanico</div>
+        <div class="word" draggable="true">Sastre</div>
+        <div class="word" draggable="true">Humita</div>
     </div>
     <script src="script.js"></script>
 </body>
