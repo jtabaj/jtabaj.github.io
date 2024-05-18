@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#words {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.word {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: grab;
+    font-size:.9rem;
+}
+
+.groups {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.group {
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    min-height: 200px;
+    background-color: #f9f9f9; /* Default pastel background color */
+}
+
+.group:nth-child(1) {
+    background-color: #ffcccb; /* Pastel pink */
+}
+
+.group:nth-child(2) {
+    background-color: #f1f1c1; /* Pastel yellow */
+}
+
+.group:nth-child(3) {
+    background-color: #d1e7dd; /* Pastel green */
+}
+
+.group:nth-child(4) {
+    background-color: #cce5ff; /* Pastel blue */
+}
+
+.group input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.group-words {
+    min-height: 150px;
+}
