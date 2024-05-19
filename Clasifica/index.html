@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller de Judith - Reciente 3</title>
+    <title>Taller de Judith - Arrastra</title>
     <link rel="shortcut icon" href="./Logo_JL.ico">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -22,7 +22,7 @@
 
     <link rel="stylesheet" href="styles.css">
 <body>
-    <h3>Arrastra las palabras a los grupos</h3>
+    <h3 id="instructionTitle">Arrastra las Palabras a los Grupos</h3>
     <div class="groups">
         <div class="group" ondrop="drop(event)" ondragover="allowDrop(event)">
             <input type="text" placeholder="Nombre del grupo">
@@ -56,8 +56,12 @@
         <div class="word" draggable="true">Pastelera</div>
         <div class="word" draggable="true">Manuel Belgrano</div>
         <div class="word" draggable="true">Abanico</div>
-        <div class="word" draggable="true">Sastre</div>
+        <div class="word" draggable="true">Aguatero</div>
         <div class="word" draggable="true">Humita</div>
+    </div>
+    <button id="continueBtn" style="display: none;" disabled>Continuar</button>
+    <div class="taller">
+    <p><img src="./Logo_JL.ico" alt="" srcset=""> Taller de Judith</p>
     </div>
     <script src="script.js"></script>
 </body>

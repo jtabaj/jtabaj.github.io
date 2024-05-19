@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: whitesmoke; /* Pastel lavender */
+    background-color: #e5edf3; /* Azul pastel */
     background-size: 90%;
     font-size: small;
 }
@@ -71,4 +71,30 @@ h3 {
 
 .group-words {
     min-height: 120px;
+}
+
+#continueBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+#continueBtn:enabled {
+    cursor: pointer;
+    background-color: #45a049;
+}
+
+.summary h3 {
+    text-align: left;
+}
+
+.taller {
+    padding: 10px;
+    text-align: center;
 }
